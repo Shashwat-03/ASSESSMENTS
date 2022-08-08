@@ -1,0 +1,10 @@
+.close{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #FFDC00;
+    justify-content: space-around;
+}
+.content{
+    border: 2px solid black;
+    width: 19vw;
+}
