@@ -1,0 +1,5 @@
+.primary-nav NavLink{
+    display:inline-block;
+    padding: 5px;
+    color: aqua;
+}
