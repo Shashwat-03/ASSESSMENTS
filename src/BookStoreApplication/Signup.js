@@ -34,6 +34,7 @@ export default function (props) {
             />
           </div>
           <div className="d-grid gap-2 mt-3">
+            {/* to navigate to the signin component on the click of submit button */}
             <button onClick={()=>navigate('Signin')} type="submit" className="btn btn-primary">
               Submit
             </button>

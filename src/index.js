@@ -1,9 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react"
+import ReactDOM  from "react-dom"
+import { Provider } from "react-redux"
 import App from './App'
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import store from './MovieApp/store'
+const root=ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  <>
-  <App></App>
-  </>
-);
+    <Provider store={store}>
+        <App></App>
+    </Provider>
+)
